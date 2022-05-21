@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-contain">
+            <div class="header-logo">
+                <img src="./assets/img/Logo.png" alt="">
+            </div>
+            <div class="header-search">
+                <form class="search-input-form" action="./index.html" method="get">
+                    <div class="input-container">
+                        <input class="input" type="text" id="keyword" name="keyword" placeholder="Search">
+                    </div>    
+                </form>
+            </div>
+            <!-- <div class="login">
+                <button class="btn-login">Đăng nhập</button>
+            </div> -->
+            <div class="header__user">
+                <img src="https://th.bing.com/th/id/OIP.djtHFlAcx0spchAfFcg87gHaIg?pid=ImgDet&rs=1" alt="" class="header__user-img">
+                <span class="header__user-name">Dũng Phạm</span>
+
+                <ul class="header__user-menu">
+                    <li class="header__user-item">
+                        <a href="./index-4.html">Tài khoản của tôi</a>
+                    </li>
+                    <li class="header__user-item">
+                        <a href="./index-3.html">Giỏ hàng của tôi</a>
+                    </li>
+                    <li class="header__user-item">
+                        <a href="">Đăng xuất</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="body">
+        <div class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="./index.html"><i class=" nav-icon fa-solid fa-house-chimney"></i><br>Home</a></li>
+                <li class="nav-item"><a href="./index-2.html"><i class=" nav-icon fa-solid fa-book-open"></i><br>Subject</a></li>
+                <li class="nav-item"><a href="./index-3.html"><i class=" nav-icon fa-solid fa-cart-shopping"></i><br>Giỏ Hàng</a></li>
+                <li class="nav-item"><a href="./index-4.html"><i class=" nav-icon fa-solid fa-user"></i><br>Tài Khoản</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div>
+                <h1 class="user-heading">Tài khoản của tôi </h1>
+                <div class="user-infor">
+                    <div class="user-content">
+                        <img width="250px" height="160px" src="https://shopkhoahoccong.000webhostapp.com/public/images/upload/Kh%C3%B3a%20h%E1%BB%8Dc%20html-css-javascript-php%201642081103.png" alt="">
+                        <ul class="user-infor-list">
+                            <span>Tên tài khoản:</span><input class="input-change" type="text"><br>
+                            <span>Email đăng nhập:</span><input class="input-change" type="text"><br>
+                            <span>Số điện thoại:</span><input class="input-change" type="text"><br>
+                            <span>Ảnh mới:</span><button>chọn tệp</button><br>
+                            <span>Mật khẩu:</span><input class="input-change" type="text"><br>
+                            <button class="btn-change">Sửa đổi và bổ sung</button>
+                            <button id="password-change" class="btn-change">Thay đổi mật khẩu</button>
+                        </ul>
+                    </div>
+                    <div id="change-show" class="user-change">
+                        <h2>Đổi mật khẩu</h2>
+                        <span>Mật Khẩu Cũ:</span><input class="input-change" type="password"><br>
+                        <span>Mật Khẩu Mới:</span><input class="input-change" type="password"><br>
+                        <span>Nhập lại Mật Khẩu:</span><input class="input-change" type="password"><br>
+                    </div>
+                </div>
+            </div>
+            <div class="user-general">
+                <h1 class="user-heading">Tổng quan về tài khoản của bạn</h1>
+                <span><i class="user-general-icon fa-solid fa-arrow-right"></i>Số khóa học đã mua: <span>4</span> khóa</span><br>
+                <span><i class="user-general-icon fa-solid fa-arrow-right"></i>Số tiền đã chi trả: <span>396.000</span> VNĐ</span>
+            </div>
+            <div class="user-course">
+                <h1 class="user-heading">Giỏ hàng đã mua</h1>
+                <ul class="user-cart-list">
+                    <li class="user-cart-item">
+                        <img width="350px" height="180px" src="https://shopkhoahoccong.000webhostapp.com/public/images/upload/Kh%C3%B3a%20h%E1%BB%8Dc%20html-css-javascript-php%201642081103.png" alt="">
+                        <div>
+                            <a class="user-cart-item-name" href="">
+                                <h1>Khóa HỌC JAVASCRIPT</h1>
+                            </a>
+                            <div class="user-cart-des">
+                                <span><i class="user-cart-icon fa-solid fa-user"></i>Tác Giả: <span>HowKteam</span></span>
+                                <span><i class="user-cart-icon fa-solid fa-id-card"></i> Giá tiền: <span>99.000</span> VND</span>
+                                <span><i class="user-cart-icon fa-solid fa-clock"></i>Thời gian mua: <span>06:09:02 - 21/01/2022</span></span>
+                                <span><i class="user-cart-icon fa-solid fa-star"></i>Xếp hạng: <span>5</span><i class="star-gold fa-solid fa-star"></i></span>
+                                <button class="btn-rate"><a href="">Đánh giá hoặc đánh giá lại</a></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="user-cart-item">
+                        <img width="350px" height="180px" src="https://shopkhoahoccong.000webhostapp.com/public/images/upload/Kh%C3%B3a%20h%E1%BB%8Dc%20html-css-javascript-php%201642081103.png" alt="">
+                        <div>
+                            <a class="user-cart-item-name" href="">
+                                <h1>Khóa HỌC JAVASCRIPT</h1>
+                            </a>
+                            <div class="user-cart-des">
+                                <span><i class="user-cart-icon fa-solid fa-user"></i>Tác Giả: <span>HowKteam</span></span>
+                                <span><i class="user-cart-icon fa-solid fa-id-card"></i> Giá tiền: <span>99.000</span> VND</span>
+                                <span><i class="user-cart-icon fa-solid fa-clock"></i>Thời gian mua: <span>06:09:02 - 21/01/2022</span></span>
+                                <span><i class="user-cart-icon fa-solid fa-star"></i>Xếp hạng: <span>5</span><i class="star-gold fa-solid fa-star"></i></span>
+                                <button class="btn-rate"><a href="">Đánh giá hoặc đánh giá lại</a></button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="user-cart-item">
+                        <img width="350px" height="180px" src="https://shopkhoahoccong.000webhostapp.com/public/images/upload/Kh%C3%B3a%20h%E1%BB%8Dc%20html-css-javascript-php%201642081103.png" alt="">
+                        <div>
+                            <a class="user-cart-item-name" href="">
+                                <h1>Khóa HỌC JAVASCRIPT</h1>
+                            </a>
+                            <div class="user-cart-des">
+                                <span><i class="user-cart-icon fa-solid fa-user"></i>Tác Giả: <span>HowKteam</span></span>
+                                <span><i class="user-cart-icon fa-solid fa-id-card"></i> Giá tiền: <span>99.000</span> VND</span>
+                                <span><i class="user-cart-icon fa-solid fa-clock"></i>Thời gian mua: <span>06:09:02 - 21/01/2022</span></span>
+                                <span><i class="user-cart-icon fa-solid fa-star"></i>Xếp hạng: <span>5</span><i class="star-gold fa-solid fa-star"></i></span>
+                                <button class="btn-rate"><a href="">Đánh giá hoặc đánh giá lại</a></button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-infor">
+            <div class="footer-header">Thông Tin</div>
+            <div class="footer-content">
+                <span>- Cảm ơn bạn đã quan tâm đến Shop Group 59</span>
+                <span>- Shop Group 59 là một trang web phi lợi nhuận.<br>Với mong muốn đem lại cho người dùng những<br>khóa học uy tín chất lượng hàng đầu Việt Nam<br></span>
+            </div>
+        </div>
+        <div class="footer-infor">
+            <div class="footer-header">Liên Kết</div>
+            <ul class="footer-content">
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-solid fa-graduation-cap"></i>Chương trình đào tạo VIP</a></li>
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-brands fa-rocketchat"></i>Cộng đồng Group 59</a></li>
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-solid fa-briefcase"></i>Công ty TNHH Group 59 Việt Nam</a></li>
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-solid fa-tag"></i>Privacy</a></li> 
+            </ul>
+        </div>
+        <div class="footer-infor">
+            <div class="footer-header">Liên Hệ</div>
+            <ul class="footer-content">
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-solid fa-location-arrow"></i>La Khê, Hà Đông, Hà Nội, Việt Nam</a></li>
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-solid fa-envelope"></i>Email: grup59j2school@gmail.com</a></li>
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-solid fa-phone"></i>Phone: 0396396332</a></li>
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-brands fa-facebook"></i>facebook</a></li> 
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">© 2019 copyright Công ty TNHH Group 59</div>
+
+    <script>
+        document.getElementById("password-change").onclick = function(){ myFunction()} ;
+        function myFunction(){
+            document.getElementById("change-show").classList.toggle('open')
+        }
+    </script>
+</body>
+</html>

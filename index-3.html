@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-contain">
+            <div class="header-logo">
+                <img src="./assets/img/Logo.png" alt="">
+            </div>
+            <div class="header-search">
+                <form class="search-input-form" action="./index.html" method="get">
+                    <div class="input-container">
+                        <input class="input" type="text" id="keyword" name="keyword" placeholder="Search">
+                    </div>    
+                </form>
+            </div>
+            <!-- <div class="login">
+                <button class="btn-login">Đăng nhập</button>
+            </div> -->
+            <div class="header__user">
+                <img src="https://th.bing.com/th/id/OIP.djtHFlAcx0spchAfFcg87gHaIg?pid=ImgDet&rs=1" alt="" class="header__user-img">
+                <span class="header__user-name">Dũng Phạm</span>
+
+                <ul class="header__user-menu">
+                    <li class="header__user-item">
+                        <a href="./index-4.html">Tài khoản của tôi</a>
+                    </li>
+                    <li class="header__user-item">
+                        <a href="./index-3.html">Giỏ hàng của tôi</a>
+                    </li>
+                    <li class="header__user-item">
+                        <a href="">Đăng xuất</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="body">
+        <div class="header-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="./index.html"><i class=" nav-icon fa-solid fa-house-chimney"></i><br>Home</a></li>
+                <li class="nav-item"><a href="./index-2.html"><i class=" nav-icon fa-solid fa-book-open"></i><br>Subject</a></li>
+                <li class="nav-item"><a href="./index-3.html"><i class=" nav-icon fa-solid fa-cart-shopping"></i><br>Giỏ Hàng</a></li>
+                <li class="nav-item"><a href="./index-4.html"><i class=" nav-icon fa-solid fa-user"></i><br>Tài Khoản</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="page-content">
+                <div class="page">
+                    <div class="content">
+                        <h2>Thông tin giỏ hàng của bạn </h2>
+                    </div>
+                    <!-- <table id="table_gio_hang">
+                        <tr class="header-table">
+                            <th class="header_ten"> Tên </th>
+                            <th class="header_tacgia"> Tác Giả </th>
+                           
+                            <th class="header_gia"> Giá </th>
+                            <th class="header_tuong_tac"> Huỷ</th>
+                            <th class="header_mua"> Mua </th>
+                        </tr>
+                        <tr>
+                            <th>phong</th>
+                            <th>vip pro no 1 </th>
+                            <th>1000000$</th>
+                            <th><a href="#">xoá</a> </th>
+                            <th>
+                                <input type="hidden" class="value" value="36">
+                                <input class="check-value" type="checkbox">
+                                <input type="hidden" class="value" value="36">
+                            </th>
+                        </tr>
+                        
+                    </table>
+                    <h3>Tổng tiền: <span>0</span>VND</h3> -->
+                    <div class="content_mid_table">
+                        <p>Bạn ơi giỏ hàng của bạn đang trống kìa hãy lụm thêm vài sản phẩm vào nào !!!</p>
+                        <p>Bạn có thể xem sản phẩm <a href="./index.html">Tại đây</a> </p>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="page_right">
+                        <div calss = "test">
+                            <div class="table1">
+                                <h2>Thông tin thanh toán</h2>
+                        
+                                <!-- <p>Chưa có thông tin bạn phải đăng nhập</p>
+                                <p>Bạn có thể đăng nhập <a href="#">Tại đây</a></p> -->
+
+                                <div>
+                                    <span>Tên : <span>Công phạm nè</span></span><br>
+                                    <span>Số tài khoản: <span>3582022271</span></span><br>
+                                    <span>Ngân hàng <span>Quân đội (MBBANK) </span></span>
+                                </div>
+                            </div>
+                            <div class="table2">
+                                <h2>Thông tin về mặt hàng</h2>
+                                <p></p>
+                                <p>Số tiền phải trả : 0</p>
+                                <p>Số lượng bài học bạn đã mua: 0</p>
+                            </div>
+                        </div>
+                        <form id = "mua">
+                            <input type="hidden">
+                            <button>Mua</button>    
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-infor">
+            <div class="footer-header">Thông Tin</div>
+            <div class="footer-content">
+                <span>- Cảm ơn bạn đã quan tâm đến Shop Group 59</span>
+                <span>- Shop Group 59 là một trang web phi lợi nhuận.<br>Với mong muốn đem lại cho người dùng những<br>khóa học uy tín chất lượng hàng đầu Việt Nam<br></span>
+            </div>
+        </div>
+        <div class="footer-infor">
+            <div class="footer-header">Liên Kết</div>
+            <ul class="footer-content">
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-solid fa-graduation-cap"></i>Chương trình đào tạo VIP</a></li>
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-brands fa-rocketchat"></i>Cộng đồng Group 59</a></li>
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-solid fa-briefcase"></i>Công ty TNHH Group 59 Việt Nam</a></li>
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-solid fa-tag"></i>Privacy</a></li> 
+            </ul>
+        </div>
+        <div class="footer-infor">
+            <div class="footer-header">Liên Hệ</div>
+            <ul class="footer-content">
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-solid fa-location-arrow"></i>La Khê, Hà Đông, Hà Nội, Việt Nam</a></li>
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-solid fa-envelope"></i>Email: grup59j2school@gmail.com</a></li>
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-solid fa-phone"></i>Phone: 0396396332</a></li>
+               <li class="footer-content-item"><a href=""><i class=" footer-icon fa-brands fa-facebook"></i>facebook</a></li> 
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">© 2019 copyright Công ty TNHH Group 59</div>
+</body>
+
+<script>
+    $('.check-value').on('click', function(){
+    if (this.checked) {
+        alert(this.prev.value);
+    }
+})
+</script>
+
+</html>
